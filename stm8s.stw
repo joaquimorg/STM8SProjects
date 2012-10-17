@@ -47,6 +47,6 @@ Dependencies=
 Filename=asmdemo.stp
 Dependencies=
 [Options]
-ActiveProject=MiniOS
+ActiveProject=minibasic
 ActiveConfig=Debug
 AddSortedElements=1

@@ -12,9 +12,9 @@ Count=0
 ProgramEvenIfBlank=0
 [PROGRAM MEMORY]
 Count=1
-File0=D:\Projectos\Joaquim\MCU\ST\STM8SProjects\MiniBasic\Debug\minibasic.s19
+File0=C:\Users\joaquim\Desktop\Joaquim\STM8SProjects\MiniBasic\Debug\minibasic.s19
 ProgramEvenIfBlank=0
 [OPTION BYTE]
 Count=1
-File0=D:\Projectos\Joaquim\MCU\ST\STM8SProjects\MiniBasic\minibasic_Programmer\minibasic_STVP_OPTION BYTE.hex
+File0=C:\Users\joaquim\Desktop\Joaquim\STM8SProjects\MiniBasic\minibasic_Programmer\minibasic_STVP_OPTION BYTE.hex
 ProgramEvenIfBlank=0
