@@ -1,0 +1,11 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.mapping.asm.Config.0]
+ExternDep= mapping.asm mapping.inc
+
+[Root.Source Files.main.asm.Config.0]
+ExternDep= main.asm mapping.inc

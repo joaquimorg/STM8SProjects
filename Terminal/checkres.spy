@@ -1,0 +1,9 @@
+;
+; **        Welcome to ST Visual Debug SPY System               **
+; ** Copyright STMicroelectronics (c) 1999, all rights reserved **
+;  Level 1
+;  Date  03/14/10
+;  Time  23:04:54
+;
+<tvdebug\confmenu.cpp:170-23:04:54> 
+Error: resource handle has not been restored in U:\gui\stvd\src\stvdebug\mainfrm.cpp:3019

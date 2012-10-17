@@ -1,0 +1,74 @@
+
+<ApplicationBuild Header="stm8s207" Extern=".\stm8s207.rapp" Path=".\stm8s207.rapp" OutputFile=".\Debug\stm8s207.aof" sate="0" >
+	<Group Header="Source Files" Marker="-1" OutputFile="" sate="96" >
+		<NodeC Path="..\main.c" Header="main.c" Marker="-1" OutputFile=".\Debug\main.obj" sate="0" />
+		<NodeC Path="..\stm8s_it.c" Header="stm8s_it.c" Marker="-1" OutputFile=".\Debug\stm8s_it.obj" sate="0" />
+		<NodeASM Path=".\STM8_OB.asm" Header="STM8_OB.asm" Marker="-1" OutputFile=".\Debug\STM8_OB.obj" sate="0" />
+																																				
+	</Group>
+	<Group Header="Library" Marker="-1" OutputFile="" sate="0" />
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ST7" />
+																																																																																																																			
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="IncDir" Value="$(ApplicationDir)\..\..\examples\Common;$(ApplicationDir)\..\..\library\inc;$(RkitInc);$(RkitInc)\ST7;.;.\..;.\..\.." Removable="1" />
+					<Property Header="OutDir" Value="$(ApplicationDir)\Debug" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\Debug" Removable="1" />
+																																																													
+				</Section>
+																																															
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorST7" >
+					<Property Header="Processor" Value="STM8S207MB" Removable="1" />
+							
+				</Section>
+				<Section Header="ToolSetST7" >
+					<Property Header="BuildToolSetST7" Value="ST7\\RaisonanceTools.config" Removable="1" />
+					<Property Header="ArelocInfo" Value="" Removable="1" />
+																																																				
+				</Section>
+				<Section Header="DebugST7" >
+					<Property Header="DebugTool_STM8" Value="RLINK_STM8" Removable="1" />
+																																																																															
+				</Section>
+					
+			</Set>
+			<Set Header="RLST7" >
+				<Section Header="More" >
+					<Property Header="More" Value="rmun" Removable="1" />
+																																																																																								
+				</Section>
+																																																																				
+			</Set>
+			<Set Header="RCST7" >
+				<Section Header="LISTING" >
+					<Property Header="LST" Value="NOPRINT" Removable="1" />
+					<Property Header="CODE" Value="" Removable="1" />
+																																																																																								
+				</Section>
+				<Section Header="CodeGen" >
+					<Property Header="ENUMTYPE" Value="ET(INT)" Removable="1" />
+					<Property Header="INITSTAT" Value="INITSTATICVAR" Removable="1" />
+																																		
+				</Section>
+				<Section Header="Defines" >
+					<Property Header="More" Value="" Removable="1" />
+																																		
+				</Section>
+																										
+			</Set>
+			<Set Header="MAST7" >
+				<Section Header="Set" >
+					<Property Header="More" Value="MODESTM8" Removable="1" />
+																																																																						
+				</Section>
+																																																						
+			</Set>
+		</Config>
+	</Options>
+</ApplicationBuild>

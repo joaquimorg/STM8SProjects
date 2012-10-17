@@ -1,0 +1,29 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.Source Files\FWLib...\fwlib\library\src\stm8s_clk.c.Config.0]
+ExternDep= ..\fwlib\library\src\stm8s_clk.c  "C:\Program Files\COSMIC\CXSTM8_16K\Hstm8\modsl0.h"  ..\fwlib\library\inc\stm8s_clk.h ..\fwlib\library\inc\stm8s.h  ..\fwlib\library\inc\stm8s_type.h stm8s_conf.h  ..\fwlib\library\inc\stm8s_gpio.h
+
+[Root.Source Files.Source Files\FWLib...\fwlib\library\src\stm8s_clk.c.Config.1]
+ExternDep= ..\fwlib\library\src\stm8s_clk.c  C:\Programas\COSMIC\CXSTM8_16K\Hstm8\modsl0.h  ..\fwlib\library\inc\stm8s_clk.h ..\fwlib\library\inc\stm8s.h  ..\fwlib\library\inc\stm8s_type.h stm8s_conf.h  ..\fwlib\library\inc\stm8s_gpio.h
+
+[Root.Source Files.Source Files\FWLib...\fwlib\library\src\stm8s_gpio.c.Config.0]
+ExternDep= ..\fwlib\library\src\stm8s_gpio.c  "C:\Program Files\COSMIC\CXSTM8_16K\Hstm8\modsl0.h"  ..\fwlib\library\inc\stm8s_gpio.h ..\fwlib\library\inc\stm8s.h  ..\fwlib\library\inc\stm8s_type.h stm8s_conf.h  ..\fwlib\library\inc\stm8s_clk.h
+
+[Root.Source Files.Source Files\FWLib...\fwlib\library\src\stm8s_gpio.c.Config.1]
+ExternDep= ..\fwlib\library\src\stm8s_gpio.c  C:\Programas\COSMIC\CXSTM8_16K\Hstm8\modsl0.h  ..\fwlib\library\inc\stm8s_gpio.h ..\fwlib\library\inc\stm8s.h  ..\fwlib\library\inc\stm8s_type.h stm8s_conf.h  ..\fwlib\library\inc\stm8s_clk.h
+
+[Root.Source Files.main.c.Config.0]
+ExternDep= main.c "C:\Program Files\COSMIC\CXSTM8_16K\Hstm8\modsl0.h"  ..\fwlib\library\inc\stm8s.h ..\fwlib\library\inc\stm8s_type.h stm8s_conf.h  ..\fwlib\library\inc\stm8s_clk.h ..\fwlib\library\inc\stm8s_gpio.h
+
+[Root.Source Files.main.c.Config.1]
+ExternDep= main.c C:\Programas\COSMIC\CXSTM8_16K\Hstm8\modsl0.h  ..\fwlib\library\inc\stm8s.h ..\fwlib\library\inc\stm8s_type.h stm8s_conf.h  ..\fwlib\library\inc\stm8s_clk.h ..\fwlib\library\inc\stm8s_gpio.h  ..\glcdlib\glcdlib.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files\COSMIC\CXSTM8_16K\Hstm8\modsl0.h"
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.1]
+ExternDep= stm8_interrupt_vector.c  C:\Programas\COSMIC\CXSTM8_16K\Hstm8\modsl0.h

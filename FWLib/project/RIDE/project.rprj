@@ -1,0 +1,7 @@
+
+<Project Header="Project 'project'" Path=".\project.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="stm8s208" >
+	<ApplicationBuild Header="stm8s208" Extern=".\stm8s208.rapp" Path=".\stm8s208.rapp" OutputFile=".\Debug\stm8s208.aof" sate="96" />
+	<ApplicationBuild Header="stm8s207" Extern=".\stm8s207.rapp" Path=".\stm8s207.rapp" OutputFile=".\Debug\stm8s207.aof" sate="0" />
+	<ApplicationBuild Header="stm8s105" Extern=".\stm8s105.rapp" Path=".\stm8s105.rapp" OutputFile=".\Debug\stm8s105.aof" sate="98" />
+	<ApplicationBuild Header="stm8s103" Extern=".\stm8s103.rapp" Path=".\stm8s103.rapp" OutputFile=".\Debug\stm8s103.aof" sate="0" />
+</Project>
